@@ -1,5 +1,7 @@
 Redux Persistent State Snapshot
 ====
+[Middleware](http://rackt.github.io/redux/docs/advanced/Middleware.html) to persist your state in a Redux app.
+
 ```js
 npm install --save redux-persistent-state-snapshot
 ```
