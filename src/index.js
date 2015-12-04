@@ -1,6 +1,4 @@
-const shallowEqual = (propA, propB) => 
-  Object.keys(propA)
-    .filter(key => propA[key] !== propB[key]).length === 0
+export shallowEqual from './shallowEqual'
 
 const defaultConfig = {
   selector: state => state,
