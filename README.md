@@ -5,10 +5,10 @@ Redux Persistent State Snapshot
 ```js
 npm install --save redux-persistent-state-snapshot
 ```
-#Motivation
+# Motivation
 Persist a part (for example your UI State) of your State tree.
 
-#Usage
+# Usage
 ```js
 import createPersistentStateSnapshot from 'redux-persistent-state-snapshot';
 

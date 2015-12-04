@@ -1,6 +1,6 @@
 {
   "name": "redux-persistent-state-snapshot",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Redux middleware for making persistent state snapshots",
   "main": "lib/index.js",
   "scripts": {
