@@ -1,4 +1,4 @@
-export shallowEqual from './shallowEqual'
+import shallowEqual from './shallowEqual'
 
 const defaultConfig = {
   selector: state => state,
