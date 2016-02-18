@@ -21,20 +21,20 @@ export default function createPersistentStateSnapshot(config) {
     mountAt,
     shouldUpdate,
     persist
-  } = finalConfig;
+  } = finalConfig
 
-  let lastSnapshot = {};
+  let lastSnapshot = {}
 
   return ({ getState }) => next => action => {
-    let result = next(action);
+    let result = next(action)
 
-    let newSnapshot = selector(getState());
+    let newSnapshot = selector(getState())
     
     if(shouldUpdate(newSnapshot, lastSnapshot)) {
-      lastSnapshot = newSnapshot;
+      lastSnapshot = newSnapshot
       persist(mountAt, serialize(lastSnapshot))
     }
 
-    return result;
+    return result
   }
 }
